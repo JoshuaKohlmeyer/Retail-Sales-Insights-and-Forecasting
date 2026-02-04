@@ -1,18 +1,18 @@
 # Retail Sales Insights and Forecasting
 
-End to end retail sales analysis and forecasting using **R** for data preparation and modeling, and **Power BI** for interactive dashboards and business insights.
+End to end retail sales analysis and forecasting using **R** for data preparation and modeling, and **Power BI** for interactive dashboards and insights.
 
-This project focuses on transforming raw transactional data into a clean analytical model, building meaningful KPIs, exploring sales and profit drivers, and producing forward looking forecasts using historical trends.
+This project focuses on taking raw retail transaction data, turning it into a clean analytical dataset, building clear KPIs, exploring what drives sales and profit, and producing simple, realistic forecasts based on historical trends.
 
 ---
 
 ## Project Overview
 
-The goal of this project was to build a realistic retail analytics workflow that mirrors how data is handled and presented in a business setting.
+I built this project to apply what I learned after completing the **Microsoft Power BI Data Analyst Professional Certificate (Coursera)**, and to combine those skills with my background in **R** and data analysis.
 
-Starting from a raw global retail dataset, I performed structured data cleaning and transformation in **R**, created Power BI ready tables, and designed a multi page dashboard that highlights performance, trends, product behavior, and future outlook.
+Starting from a raw global retail dataset, I cleaned and transformed the data in **R**, created **Power BI** ready tables, and designed a multi page dashboard that highlights performance over time, differences across categories and regions, product level behaviour, and future outlook.
 
-The final output is an interactive Power BI dashboard supported by a reproducible data preparation pipeline.
+The final result is an interactive **Power BI** dashboard supported by a reproducible data preparation pipeline.
 
 ---
 
@@ -29,7 +29,7 @@ Key fields include:
 - Product, category, and sub category information  
 - Geographic attributes such as market, region, and country  
 
-The dataset is well suited for both descriptive analysis and time series based forecasting.
+The dataset works well for both descriptive analysis and time series based forecasting.
 
 ---
 
@@ -39,88 +39,89 @@ I built this project to:
 
 - Practice structuring a full analytics project from raw data to final dashboard  
 - Strengthen my skills in **R** for data cleaning and feature engineering  
-- Apply **Power BI** for dashboard design, modeling, and DAX calculations  
-- Move beyond static analysis and include forward looking **forecasting**  
-- Create a portfolio ready project that reflects real world business reporting  
+- Apply **Power BI** for data modeling, DAX calculations, and dashboard design  
+- Include forecasting rather than only historical analysis  
+- Build a project that reflects practical analytics work  
 
-This project combines data wrangling, analytical thinking, visualization, and communication in one cohesive workflow.
+A big focus throughout the project was on **clear data visualization**. The goal was not to add complexity, but to present information in a way that is easy to understand and useful for decision making.
 
 ---
 
 ## Project Workflow
 
-The project followed a clear and logical pipeline:
+The project followed a clear and structured process:
 
 1. Loaded the raw Global Superstore dataset into R  
 2. Cleaned and standardized column names and data types  
 3. Parsed and engineered date features such as year, month, and year month  
-4. Created clean, analysis ready tables for Power BI consumption  
-5. Saved processed datasets to a structured `data/processed` directory  
-6. Designed a star style fact table focused on sales transactions  
+4. Created clean, analysis ready tables for Power BI 
+5. Saved processed datasets to a structured `data/processed` folder  
+6. Designed a fact table focused on sales transactions  
 7. Imported processed data into Power BI  
 8. Built relationships and validated the data model  
 9. Created core KPIs such as total sales, total profit, total orders, and average order value  
-10. Developed DAX measures including profit margin and aggregated metrics  
+10. Developed DAX measures including profit margin  
 11. Designed multi page dashboards with consistent layout and filtering  
-12. Explored category, region, and product level performance  
-13. Applied built in Power BI forecasting to monthly sales and profit  
-14. Interpreted forecasts with realistic, cautious business context  
-15. Summarized insights and next steps in an executive style page  
+12. Analysed category, region, and product level performance  
+13. Applied Power BI forecasting to monthly sales and profit  
+14. Interpreted forecast results carefully and realistically  
+15. Summarised key insights, risks, and next steps in an executive style page  
 
-All data preparation steps are fully reproducible using the R scripts included in this repository.
+All data preparation steps are fully reproducible using the R scripts in this repository.
 
 ---
 
 ## Power BI Dashboard Overview
 
-The Power BI dashboard consists of five focused pages, each designed to answer a specific set of business questions.
+The Power BI dashboard consists of five focused pages, each answering a specific set of questions.
 
 ### 1. Retail Sales Overview
 ![Retail Sales Overview](powerbi/screenshots/01_overview.png)
 
-High level KPIs and time series trends showing overall sales, profit, order volume, and growth patterns over time. Interactive slicers allow filtering by year, market, and customer segment.
+High level KPIs and time series trends showing overall sales, profit, order volume, and growth over time. Interactive slicers allow filtering by year, market, and customer segment.
 
 ---
 
 ### 2. Category and Region Performance
 ![Category and Region Performance](powerbi/screenshots/02_category_region.png)
 
-Breakdown of sales and profit by product category and geographic region. This page highlights performance differences across markets and helps identify strong and weak areas.
+Breakdown of sales and profit by product category and geographic region. This page highlights clear performance differences across markets and categories.
 
 ---
 
 ### 3. Product Performance Insights
 ![Product Performance Insights](powerbi/screenshots/03_product_insights.png)
 
-Focused analysis of product and sub category performance, identifying which products drive revenue versus profit and where margin pressure exists.
+A closer look at product and sub category performance, showing which products drive revenue versus profit and where margin pressure exists.
 
 ---
 
 ### 4. Sales and Profit Forecast
 ![Sales Forecast](powerbi/screenshots/04_forecast.png)
 
-Twelve month forecasts for monthly sales and profit based on historical patterns from 2011 to 2014. Forecasts are intended as directional estimates rather than precise predictions.
+Twelve month forecasts for monthly sales and profit based on historical patterns from 2011 to 2014. The forecasts are intended as directional guidance rather than exact predictions.
 
 ---
 
 ### 5. Executive Summary and Recommendations
 ![Executive Summary](powerbi/screenshots/05_executive_summary.png)
 
-Concise summary of key insights, risks, and suggested next actions written for a non technical audience.
+A concise summary of key insights, risks, and suggested next actions, written for a non technical audience.
 
 ---
 
 ## Forecasting Approach
 
-Forecasts were generated using Power BI’s built in time series forecasting on monthly aggregated data.
+Forecasts were created using Power BI’s built in time series forecasting on monthly aggregated data.
 
-Key points:
-- Forecasts follow the established upward trend in sales  
-- Profit growth appears more gradual than sales  
-- Seasonal fluctuations remain visible  
-- Results are presented with confidence intervals to reflect uncertainty  
+*Key observations:*
 
-The forecasts are positioned as decision support tools rather than exact predictions.
+- Sales are expected to continue following the existing upward trend
+- Profit growth appears slower than sales growth
+- Seasonal patterns remain visible in the forecast
+- Confidence intervals are included to reflect uncertainty
+
+The forecasts are positioned as support for planning rather than precise predictions.
 
 ---
 
@@ -135,19 +136,17 @@ The forecasts are positioned as decision support tools rather than exact predict
 - **Power Query** for data transformation
 - **DAX** for calculated measures and KPIs
 
-### Analytical Skills Demonstrated
+### Practical Skills Used
 - Data cleaning and transformation  
 - Data modeling and relationships  
 - KPI design and validation  
-- Time series trend analysis  
-- Forecast interpretation  
-- Dashboard layout and visual storytelling  
+- Time series analysis and forecasting 
+- Data visualization and dashboard design
+- Communicating insights clearly
 
 ---
 
 ## Repository Structure
-
-The repository is organised to clearly separate data preparation, analysis, and dashboard assets.
 
 - **data/processed/**  
   Cleaned and transformed datasets prepared in R and used directly in Power BI.
@@ -156,13 +155,13 @@ The repository is organised to clearly separate data preparation, analysis, and 
   R scripts used for data cleaning, feature engineering, and preparing Power BI ready tables.
 
 - **powerbi/screenshots/**  
-  Screenshots of each Power BI dashboard page used for documentation and presentation.
+  Screenshots of each Power BI dashboard page.
 
 - **Retail-Sales-Insights-and-Forecasting.pbix**  
-  The Power BI dashboard file containing all visuals, measures, and forecasts.
-
+  Power BI dashboard file.
+  
 - **README.md**  
-  Project documentation describing the full workflow and results.
+  Project documentation.
 
 - **.gitignore**  
   Git configuration file.
@@ -173,13 +172,15 @@ The full interactive dashboard can be explored locally by opening the Power BI f
 
 ## Final Notes
 
-This project was designed to reflect how retail data is handled, analyzed, and communicated in a real business environment. Emphasis was placed on clarity, structure, and realistic interpretation rather than overly complex visuals or inflated claims.
+This project focuses on clarity and solid fundamentals rather than visual overload. The dashboard is designed to be easy to read, interactive, and useful for exploring the data.
 
 ---
 
 ## Contact
 
-If you would like to connect or give feedback:
+If you would like to connect or give feedback on this project (much appreciated):
 
 - LinkedIn: https://www.linkedin.com/in/joshua-kohlmeyer/  
 - GitHub: https://github.com/JoshuaKohlmeyer
+
+##
