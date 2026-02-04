@@ -76,35 +76,35 @@ All data preparation steps are fully reproducible using the R scripts included i
 The Power BI dashboard consists of five focused pages, each designed to answer a specific set of business questions.
 
 ### 1. Retail Sales Overview
-![Retail Sales Overview](powerbi/screenshots/01_overview.pdf)
+![Retail Sales Overview](powerbi/screenshots/01_overview.png)
 
 High level KPIs and time series trends showing overall sales, profit, order volume, and growth patterns over time. Interactive slicers allow filtering by year, market, and customer segment.
 
 ---
 
 ### 2. Category and Region Performance
-![Category and Region Performance](powerbi/screenshots/02_category_region.pdf)
+![Category and Region Performance](powerbi/screenshots/02_category_region.png)
 
 Breakdown of sales and profit by product category and geographic region. This page highlights performance differences across markets and helps identify strong and weak areas.
 
 ---
 
 ### 3. Product Performance Insights
-![Product Performance Insights](powerbi/screenshots/03_product_insights.pdf)
+![Product Performance Insights](powerbi/screenshots/03_product_insights.png)
 
 Focused analysis of product and sub category performance, identifying which products drive revenue versus profit and where margin pressure exists.
 
 ---
 
 ### 4. Sales and Profit Forecast
-![Sales Forecast](powerbi/screenshots/04_forecast.pdf)
+![Sales Forecast](powerbi/screenshots/04_forecast.png)
 
 Twelve month forecasts for monthly sales and profit based on historical patterns from 2011 to 2014. Forecasts are intended as directional estimates rather than precise predictions.
 
 ---
 
 ### 5. Executive Summary and Recommendations
-![Executive Summary](powerbi/screenshots/05_executive_summary.pdf)
+![Executive Summary](powerbi/screenshots/05_executive_summary.png)
 
 Concise summary of key insights, risks, and suggested next actions written for a non technical audience.
 
