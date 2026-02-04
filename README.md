@@ -1,6 +1,6 @@
 # Retail Sales Insights and Forecasting
 
-End to end retail sales analysis and forecasting using **R** for data preparation and modeling, and **Power BI** for interactive dashboards and insights.
+End to end retail sales analysis and forecasting using **R** for the data preparation and modeling, and **Power BI** for the interactive dashboard and insights.
 
 This project focuses on taking raw retail transaction data, turning it into a clean analytical dataset, building clear KPIs, exploring what drives sales and profit, and producing simple, realistic forecasts based on historical trends.
 
