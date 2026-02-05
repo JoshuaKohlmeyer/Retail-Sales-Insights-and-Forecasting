@@ -106,7 +106,31 @@ Twelve month forecasts for monthly sales and profit based on historical patterns
 ### 5. Executive Summary and Recommendations
 ![Executive Summary](powerbi/screenshots/05_executive_summary.png)
 
-A concise summary of key insights, risks, and suggested next actions, written for a non technical audience.
+A concise summary of key insights, risks, and suggested next actions.
+
+---
+
+## Key Insights, Forecasts, and Next Actions
+
+### Key Insights
+
+- **Technology products** bring in a large share of total sales, but their profit margins are less consistent compared to other categories.
+- **Office Supplies** tend to generate smaller sales per order, but profits are more stable across regions.
+- Higher **discounts** are often linked to lower profit, especially for products that already have tight margins.
+- Some regions show strong sales growth but contribute less to overall profit, suggesting efficiency differences across markets.
+##
+### Forecast Summary
+
+- The sales forecast suggests that overall sales are likely to keep *increasing* over the next year, following the *upward trend* seen in the historical data.
+- Profit is also expected to grow, but more slowly and with noticeable fluctuations, which may point to ongoing margin pressure.
+
+These forecasts are meant to give a general idea of where performance could be heading, rather than exact future values.
+##
+### Suggested Next Actions
+
+- Take a closer look at discounting on high volume products that are not contributing much to profit.
+- Focus on growing categories and regions that show both strong sales and reasonable margins.
+- Revisit and update the forecasts regularly as new data becomes available.
 
 ---
 
