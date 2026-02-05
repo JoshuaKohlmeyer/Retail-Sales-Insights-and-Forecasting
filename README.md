@@ -19,7 +19,7 @@ The final result is an interactive **Power BI** dashboard supported by a reprodu
 ## Dataset
 
 - **Dataset**: Global Superstore Dataset  
-- **Source**: Kaggle  
+- **Source**: https://www.kaggle.com/datasets/apoorvaappz/global-super-store-dataset 
 - **Time Period**: 2011 to 2014  
 - **Scope**: Global retail transactions across multiple markets, regions, product categories, and customer segments  
 
