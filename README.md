@@ -115,7 +115,7 @@ A concise summary of key insights, risks, and suggested next actions, written fo
 Due to Power BI online sharing limitations for personal accounts, the interactive dashboard is shared as a PBIX file.
 
 The full dashboard can be downloaded here and explored locally in Power BI Desktop:
-https://1drv.ms/u/c/77409db4c05f6c66/IQAhh4s8EnPmTYXkmePLV0LyAUFvHxMrGzgxQF-We66FvdY?e=G2LAc2
+https://1drv.ms/u/c/77409db4c05f6c66/IQAhh4s8EnPmTYXkmePLV0LyAUFvHxMrGzgxQF-We66FvdY?e=MsDVQT
 
 All five dashboard pages are also documented using screenshots above to provide a clear preview of the layout, visuals, and insights.
 To view the dashboard:
