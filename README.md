@@ -110,6 +110,22 @@ A concise summary of key insights, risks, and suggested next actions, written fo
 
 ---
 
+## Power BI Dashboard (PBIX File)
+
+Due to Power BI online sharing limitations for personal accounts, the interactive dashboard is shared as a PBIX file.
+
+The full dashboard can be downloaded here and explored locally in Power BI Desktop:
+https://1drv.ms/u/c/77409db4c05f6c66/IQAhh4s8EnPmTYXkmePLV0LyAUFvHxMrGzgxQF-We66FvdY?e=G2LAc2
+
+All five dashboard pages are also documented using screenshots above to provide a clear preview of the layout, visuals, and insights.
+To view the dashboard:
+
+1. Download the PBIX file from the link above
+2. Open it using Power BI Desktop
+3. Interact with filters, slicers, and visuals locally
+
+---
+
 ## Forecasting Approach
 
 Forecasts were created using Power BI’s built in time series forecasting on monthly aggregated data.
